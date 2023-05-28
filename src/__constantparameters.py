@@ -1,7 +1,7 @@
 import os
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE,"data")
-CONTENT = os.path.join(BASE,"content")
+CONTENT = os.path.join(BASE,"pckfile")
 IMAGELOGO = os.path.join(DATA,"letter_black.jpg")
 TYPEERROR = "[PROJECT BASED - RELATIONS WITH SCRIPT]"
 ANIMATIONURL = "https://assets1.lottiefiles.com/packages/lf20_yhTqG2.json"
