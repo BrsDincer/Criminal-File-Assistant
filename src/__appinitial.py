@@ -101,10 +101,8 @@ class APPRUN(object):
                             st.write(isres)
                             st.divider()
                         except Exception as err:
-                            print(str(err))
+                            st.error(str(err))
                             pass
-            st.cache_data.clear()
-            st.cache_resource.clear()
             
             
 if __name__ == "__main__":
