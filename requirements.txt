@@ -5,3 +5,4 @@ openai
 pandas
 pickle5
 pytest-warnings
+matplotlib
