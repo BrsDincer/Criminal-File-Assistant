@@ -4,6 +4,9 @@ To examine, interpret and analyze the details and evidence you want from crime f
 ![letter_black](https://github.com/BrsDincer/PsychologicalAssistant/assets/81470496/86f430e8-afae-431a-836c-881bb2f0e333)
 
 
+## GO TO WEB APPLICATION
+[CRIMINAL FILE INVESTIGATION - AE](https://criminalai.streamlit.app/)
+
 ## Coder
 
 [Baris Dincer](https://www.linkedin.com/in/brs-dincer/)
