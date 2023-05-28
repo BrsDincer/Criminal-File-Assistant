@@ -36,7 +36,7 @@ class RECOMMENDATIONFROM(object):
         else:
             strings = datainit[target]
         emb = [BUILDCACHEEMBEDDING(apikey)._BUILD(string) for string in strings]
-        qry = BUILDCACHEEMBEDDING(apikey)._FROMSINGLE(query)
+        qry = BUILDCACHEEMBEDDING(apikey)._FROMSINGLE(str(query))
         dst = distances_from_embeddings(qry,emb,distance_metric="cosine")
         mdx = indices_of_nearest_neighbors_from_distances(dst)
         reslist = []
