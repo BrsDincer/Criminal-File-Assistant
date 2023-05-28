@@ -1,0 +1,36 @@
+[server]
+
+port = 8501
+runOnSave = true
+enableCORS = true
+maxUploadSize = 3072
+maxMessageSize = 3072
+
+[browser]
+
+gatherUsageStats = true
+serverAddress = "localhost"
+
+[theme]
+
+base = "dark"
+backgroundColor="#000000"
+font="sans serif"
+
+[global]
+
+disableWatchdogWarning = false
+showWarningOnDirectExecution = true
+
+[logger]
+
+level = "info"
+messageFormat = "%(asctime)s %(message)s"
+
+[client]
+
+caching = true
+showErrorDetails = false
+toolbarMode = "viewer"
+
+
