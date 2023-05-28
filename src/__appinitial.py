@@ -76,7 +76,6 @@ class APPRUN(object):
                                                                                    target=str(clmn),
                                                                                    kne=int(kneval))
                             for ix_,mx_ in zip(responsemodel,messagemodel):
-                                st.write(str(ix_))
                                 rmsg = GPTREVIEW(str(apikey))._CREATE(str(mx_))
                                 isres += f"""
     
