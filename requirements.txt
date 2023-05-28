@@ -1,7 +1,6 @@
 streamlit-lottie
 streamlit
 requests
-json
 openai
 pandas
 pickle5
